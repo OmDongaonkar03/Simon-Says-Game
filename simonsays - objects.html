@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>
+			Simon Says game - object
+		</title>
+		<link rel="stylesheet" href="SimonSays.css">
+	</head>
+	<body>
+		<div class="heading">
+			Simon Says!
+		</div>
+		<div class="ColorContainer" id="ColorContainer">
+			<div class="block" id="block1">
+			
+			</div>
+			<div class="block" id="block2">
+			
+			</div>
+			<div class="block" id="block3">
+			
+			</div>
+		</div>
+		<div class="SelectedColorContainer" id="SelectedColorContainer">
+			<div class="Selectedblock" id="Selectedblock1">
+			
+			</div>
+			<div class="Selectedblock" id="Selectedblock2">
+			
+			</div>
+			<div class="Selectedblock" id="Selectedblock3">
+			
+			</div>
+		</div>
+		<div class="start-button" id="start-button" onclick="startgame()">
+			Start Game
+		</div>
+		
+		<div class="OptionBlock" id="OptionBlock">
+			<div class="optioncolor" id="optioncolor1" onclick="process(this)">
+			</div>
+			<div class="optioncolor" id="optioncolor2" onclick="process(this)">
+			
+			</div>
+			<div class="optioncolor" id="optioncolor3" onclick="process(this)">
+			</div>
+		</div>
+		<div class="result" id="result">
+			
+		</div>
+		<div class="submit-button" id="submit-button" onclick="submit()">
+			Submit
+		</div>
+		<div class="submit-button" id="next" onclick="Next()">
+			Next
+		</div>
+	</body>
+	<script src="SimonSays.js"></script>
+</html>
